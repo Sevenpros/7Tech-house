@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	border: none;
+	padding: 0;
+}
+body{
+	background: rgba(189, 189, 189, 0.493);
+}
+.top-header{
+	height:650px;
+	border: none;
+	margin: 2px;
+}
+.top-menu{
+	height: 100px;
+	border: none;
+	text-align: center;
+	color: white;
+	background: linear-gradient(to top, rgba(236, 5, 28, 0.671), rgb(0, 97, 153));
+	line-height: 100px;
+}
+.top-menu a{
+	color: white;
+	margin-left: 20px;
+	text-decoration: none;
+
+}
+.top-menu a:hover{
+	text-decoration: underline;
+	color: rgb(253, 192, 181);
+}
+.back-image{
+	min-height: 550px;
+	border-top: 2px solid #669999;
+	background: linear-gradient(to right, rgb(32, 0, 51), rgba(47, 134, 248, 0.329));
+    color: rgb(248, 136, 136);
+	text-align: center;
+
+}
+.desc{
+	font-size: 7vw;
+	margin-top:2vw;
+	
+}
+.company-desc{
+	color: rgba(255, 255, 255, 0.705);
+	font-size: 1.1em;
+	padding-left: 15%;
+	text-align: center;
+	font-family: 'Segoe UI Emoji';
+}
+.company-desc a{
+	color: rgba(248, 153, 182, 0.89);
+	text-decoration: none;
+}
+.company-desc a:hover{
+	color: magenta;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+.main-title{
+	height: 270px;
+}
+.solution{
+	font-size:2em;
+	font-family: 'Papyrus';
+	
+}
+.seven{
+	font-size: 20vw;
+	font-family: 'Lucida calligraphy';
+	font-weight: bolder;
+	color :white;
+}
+.top-body{
+    min-height: 550px;
+    background: url(../images/tech1.jpg);
+	background-size:  contain ;
+	background-position: fixed;
+	
+
+}
+.main-body{
+	display: flex;
+	margin: 2px;
+}
+.articles{
+	min-height: 400px;
+	width: 70%;
+	padding: 1%;
+	color: rgba(19, 18, 18, 0.815);
+	font-family:'Segoe UI Emoji' ;
+	
+
+}
+.service-header{
+	text-align: center;
+	margin-bottom: 3vw;
+
+}
+.service-desc{
+	display: flex;
+	margin-bottom: 2vw;
+	
+}
+.cons{
+	width: 45%;
+	text-align: left;
+	margin: 5px;
+	color: white;
+	background: linear-gradient(to top, rgb(236, 51, 113), rgba(40, 26, 165, 0.938));
+	padding: 5px;
+}
+.consult{
+	background: rgba(15, 2, 51, 0.815);
+}
+.software{
+	background: rgba(238, 16, 53, 0.829);
+}
+.web{
+	background: rgba(64, 2, 66, 0.815);
+}
+.graphic{
+	background: rgba(8, 60, 139, 0.774);
+}
+.service-header h1{
+	font-size: 50px;
+}
+.consultant{
+	font-size: 1.5vw;
+	padding: 6px;
+	line-height: 2vw;
+	font-weight: 500;
+}
+.cons-title{
+	font-size: 2vw;
+}
+.contacts{
+	min-height: 400px;
+	width: 35%;
+	padding: 2px;
+	margin-top: 1vw;
+	color: rgba(51, 51, 51, 0.952);
+	font-family:'Segoe UI Emoji' ;
+
+}
+.cont{
+	text-align: left;
+}
+.contact-detail{
+	font-weight: bolder;
+	line-height: 3vw;
+	font-size: 1.5vw;
+}
+.bottom-footer{
+	min-height: 150px;
+	background: rgb(2, 4, 34);
+	margin: 2px;
+}
+.social-contact{
+	display: flex;
+}
+.bullet{
+	width: 10px;
+	height: 10px;
+	background: rgb(206, 53, 53);
+	border-radius: 50%;
+	margin: 17px 5px;
+
+}
+.social-link{
+	color: rgba(8, 23, 92, 0.856);
+	text-decoration:none;
+}
+.social-link:hover{
+	color: magenta;
+	text-decoration: underline;
+}
