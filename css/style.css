@@ -176,3 +176,28 @@ body{
 	color: magenta;
 	text-decoration: underline;
 }
+.user-form input{
+	border: 1px solid rgba(0, 0, 0, 0.726);
+	border-radius: 5px;
+	padding: 8px;
+	width: 70%;
+}
+.btn{
+	padding: 5px 20px;
+	background: rgb(0, 81, 255);
+	margin: 5px 0;
+	border-radius: 5px;
+	color: white;
+	font-weight: bolder;
+	
+}
+.message{
+	min-height:50px;
+	padding: 0;
+}
+.btn:hover{
+	color: rgb(0, 81, 255);
+	background: white;
+	border:1px solid rgb(0, 81, 255);
+	
+}
