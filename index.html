@@ -108,6 +108,7 @@
 		  <div class="comment-section">
 			  <div class="comment-header">
 				<h2>Client Feedbacks</h2>
+				<button class="comment-btn">Say Something</button>
 			  </div>
 			  <div class="comments">
 				<div class="user">
@@ -221,5 +222,20 @@
   <footer class="bottom-footer">
   	
   </footer>
+  <div id="commentModal" class="modal modal-comment">
+
+	<!-- Modal content -->
+	<div class="modal-content content-comment">
+	  <span class="close">&times;</span>
+	<section>
+		<label>User name</label><br>
+		<input type="text"  placeholder="Write your names Here" class="input"><br>
+		<label>Your Message</label>
+		<div class="comment-message" contenteditable="true"></div>
+		<button class="btn">Send</button>
+	</section> 
+	</div>  
+  </div>
+  <script src="../js/index.js"></script>
 </body>
 </html>
