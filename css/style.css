@@ -3,9 +3,7 @@
 	border: none;
 	padding: 0;
 }
-body{
-	background: rgba(189, 189, 189, 0.493);
-}
+
 .top-header{
 	height:650px;
 	border: none;
@@ -44,7 +42,7 @@ body{
 }
 .company-desc{
 	color: rgba(255, 255, 255, 0.705);
-	font-size: 1.1em;
+	font-size: 2vw;
 	padding-left: 15%;
 	text-align: center;
 	font-family: 'Segoe UI Emoji';
@@ -62,7 +60,7 @@ body{
 	height: 270px;
 }
 .solution{
-	font-size:2em;
+	font-size:2.5vw;
 	font-family: 'Papyrus';
 	
 }
@@ -96,6 +94,7 @@ body{
 .service-header{
 	text-align: center;
 	margin-bottom: 3vw;
+	font-size: 1vw;
 
 }
 .service-desc{
@@ -112,16 +111,16 @@ body{
 	padding: 5px;
 }
 .consult{
-	background: rgba(15, 2, 51, 0.815);
+	background: rgb(15, 2, 51);
 }
 .software{
-	background: rgba(238, 16, 53, 0.829);
+	background: rgb(238, 16, 53);
 }
 .web{
-	background: rgba(64, 2, 66, 0.815);
+	background: rgba(64, 2, 66, 0.993);
 }
 .graphic{
-	background: rgba(8, 60, 139, 0.774);
+	background: rgb(8, 60, 139);
 }
 .service-header h1{
 	font-size: 50px;
@@ -140,7 +139,7 @@ body{
 	width: 35%;
 	padding: 2px;
 	margin-top: 1vw;
-	color: rgba(51, 51, 51, 0.952);
+	color: rgb(26, 26, 26);
 	font-family:'Segoe UI Emoji' ;
 
 }
@@ -163,6 +162,11 @@ body{
 	text-align: center;
 
 }
+.other-links{
+	width: 50%;
+	display: flex;
+	margin: 0 10%;
+}
 .footer-header{
 	text-align: center;
 	margin-bottom: 5px;
@@ -174,9 +178,13 @@ body{
 
 }
 .social{
-	width: 30%;
+	width: 60%;
 	text-align: center;
 	padding: 0 10px;
+
+}
+.local-links{
+	width: 50%;
 }
 .social-contact{
 	display: flex;
@@ -278,6 +286,7 @@ input:focus{
 	border-radius: 10px;
 	padding: 5px;
 	font-weight: bold;
+	color: rgb(20, 20, 20);
 }
 .comment-btn{
 	margin: 0 15px;
@@ -347,11 +356,108 @@ input:focus{
   .comment-message{
 	  width: 70%;
 	  min-height: 90px;
-	  border: 1px solid rgb(70, 69, 69);
+	  border: 1px solid rgb(12, 12, 12);
 	  border-radius: 5px;
 	  padding: 5px;
 	  margin: 5px 0;
   }
   .comment-message:focus{
       outline:none;
+  }
+  @media screen and (max-width: 1024px){
+	  .main-body{
+		  display: block;
+		  text-align: center;
+	  }
+	  .articles{
+		  width: 95%;
+		  text-align: center;
+	  }
+	  .contacts{
+		  width: 95%;
+	  }
+	  
+	  .contact-detail{
+		  font-size: 3vw;
+		  text-align: left;
+		  line-height: 5vw;
+	  }
+	  .so-links{
+		  line-height: 2vw;
+	  }
+	  .cont{
+		  text-align: left;
+	  }
+	  .user-form input{
+		  font-size: 2vw;
+	  }
+  }
+  @media screen and (max-width: 768px){
+	  .main-title{
+		  height:200px;
+	  }
+	  .bottom-footer{
+		  display: block;
+	  }
+	  .about{
+		  width: 95%;
+	  }
+	  .other-links{
+		  display: flex;
+		  text-align: center;
+		  width: 95%;
+	  }
+  }
+  @media screen and (max-width: 650px){
+	  .bullet{
+		  margin: 12px 5px;
+	  }
+  }
+  @media screen and (max-width: 600px){
+	  .social{
+		  width: 50%;
+	  }
+	  .other-links{
+		  width: 95%;
+	  }
+	  .so-links{
+		  line-height: 3vw;
+	  }
+	  .top-menu a{
+		  margin-left: 10px;
+	  }
+	  .main-title{
+		  height: 100px;
+	  }
+	  .company-desc{
+		  font-size: 4vw;
+	  }
+	  .solution{
+		  font-size: 5vw;
+	  }
+  }
+  @media screen and (max-width: 420px){
+	  .so-links{
+		  line-height:4vw;
+	  }
+	  .other-links{
+		  margin: 0;
+		  padding : 0;
+		  font-size: 3vw;
+	  }
+	  .bullet{
+		  margin: 5px;
+	  }
+  }
+  @media screen and (max-width: 320px){
+	  .top-menu a{
+		  font-size: 4.5vw;
+	  }
+	  .desc{
+		  margin-top: 1vw;
+	  }
+	  .solution{
+		  font-size:5vw;
+	  }
+	 
   }
