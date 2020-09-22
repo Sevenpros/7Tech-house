@@ -407,6 +407,9 @@ input:focus{
 		  text-align: center;
 		  width: 95%;
 	  }
+	  .consultant{
+		  font-size: 2vw;
+	  }
   }
   @media screen and (max-width: 650px){
 	  .bullet{
@@ -436,6 +439,12 @@ input:focus{
 		  font-size: 5vw;
 	  }
   }
+  @media screen and (max-width: 500px){
+	  .consultant{
+		  font-size: 3vw;
+		  line-height: 3vw;
+	  }
+  }
   @media screen and (max-width: 420px){
 	  .so-links{
 		  line-height:4vw;
@@ -448,6 +457,7 @@ input:focus{
 	  .bullet{
 		  margin: 5px;
 	  }
+
   }
   @media screen and (max-width: 320px){
 	  .top-menu a{
